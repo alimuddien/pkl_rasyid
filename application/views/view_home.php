@@ -29,7 +29,8 @@
 				<li class="nav-item"><a href="<?php echo base_url('getlistjamkes')?>">Jamkes</a></li>
 		</ul>
 	</nav>
-
+	
+	<!-- PENCARIAN - FILTER FASKES -->
 		<div class="col-md-3">
 			<div class="tab">
 				<button class="tablinks" onclick="openType(event, 'FFaskes')">Filter (Untuk Faskes)</button>
@@ -100,6 +101,7 @@
 				}
 					?>
 				</div>
+			<!-- END -->
 
 </body>
 </html>
