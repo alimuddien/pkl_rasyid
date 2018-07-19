@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+//ROUTES MODIFIKASI
 $route['default_controller'] = 'redirect';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
