@@ -1,6 +1,6 @@
 <?php
 /**
-*
+* Jupuk kabeh
 */
 class Model_Faskes extends MY_Model
 {
