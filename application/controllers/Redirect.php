@@ -59,6 +59,8 @@ class Redirect extends CI_Controller {
 		// if ($session_id != 'null') {
 		// 	redirect(base_url('functions'));
 		// } else {
+		
+		// CARI & FILTER FASKES
 			if (isset($_POST['submitfilter'])){
 				$keywords = "";
 				$kota = $this->input->post("faskota");
@@ -82,6 +84,7 @@ class Redirect extends CI_Controller {
 			$retVal ['list_layanan'] = array($this->model_faskes->get_list_layanan(1),$this->model_faskes->get_list_layanan(2),$this->model_faskes->get_list_layanan(3));
 			$retVal ['list_jamkes'] = array($this->model_faskes->get_list_jamkes(1),$this->model_faskes->get_list_jamkes(2),$this->model_faskes->get_list_jamkes(3));
 			$this->load->view('view_home', $retVal);
+		// END
 		// }
 	}
 	// public function getCategory_Kota()
